@@ -1,0 +1,96 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+ max-width:100vw;
+  
+}
+#navbar{
+  
+  height:20%;
+  width: 100%;
+  background-color: #e67e22 ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+}
+#navbar h1{
+  margin-top: 10px;
+}
+#search{
+  width:500px;
+    margin: 1rem;
+  padding: 10px;
+ font-size: 1rem; 
+ font-size: 1rem;
+ outline:none;
+ border-radius:10px;
+} 
+h1{
+  color: white;
+  font-size: 2rem;
+  /* margin: 1rem; */
+}
+.container{
+  height:100%;
+  margin:auto;
+  font-size:15px;
+width:100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+
+}
+.card{
+  height:250px;
+  width:100px;
+  border-radius: 10px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  border:2px solid red;
+  flex-wrap: wrap;
+}
+.poster{
+  width:100%;
+  height:100%;
+  display: flex;
+}
+.moviecard{
+  margin-top: 20px;
+ display: flex;
+ padding:30px;
+gap:50px;
+ flex-wrap: wrap;
+ 
+}
+.new-div img{
+
+  width:300px;
+  height:400px;
+ display: flex;
+ justify-content: space-evenly; 
+  flex-wrap: wrap;
+  box-shadow: 0 0 10px black;
+}
+.name_of_movie{
+  padding-top: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+}
+.date{
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color:black;
+  text-align: center;
+}
+
